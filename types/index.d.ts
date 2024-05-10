@@ -118,3 +118,7 @@ export namespace API {
     currentAuthority: string;
   };
 }
+type DataItem = {
+  name: string;
+  state: string;
+};
